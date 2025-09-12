@@ -6,8 +6,8 @@ Common staffs used by sphinx documentation projects.
 
 In your project directory:
 
-```console
-$ git submodule add git@github.com:lasyard/sphinx-common.git
+```sh
+git submodule add git@github.com:lasyard/sphinx-common.git
 ```
 
 First of all, add the sub directory to exclude patterns to prevent it from being parsed by Sphinx. In the configuration file (generally `conf.py`) file of your project:
