@@ -1,5 +1,5 @@
 PUML_CMD := java -jar ~/bin/plantuml.jar -failfast2 -tpng
-PUML_SRC_DIR ?= images
+PUML_SRC_DIR ?= _images
 PUML_DST_DIR ?= _generated_images
 
 PUML_SRCS := $(shell find $(PUML_SRC_DIR) -type f -name '*.puml')

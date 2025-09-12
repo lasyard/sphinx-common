@@ -13,7 +13,7 @@ git submodule add git@github.com:lasyard/sphinx-common.git
 First of all, add the sub directory to exclude patterns to prevent it from being parsed by Sphinx. In the configuration file (generally `conf.py`) file of your project:
 
 ```py
-exclude_patterns += ['sphinx-common/*']
+exclude_patterns += ['sphinx-common']
 ```
 
 ### Extensions
@@ -74,4 +74,4 @@ sphinx-common/scripts/build.sh clean
 
 Note `drawio` and `plantuml` tools must be installed, and the varible `DRAWIO_CMD` and `PUML_CMD` in file `drawio.mk` and `puml.mk` may need to be changed to the real path of the tools.
 
-The default image source files is searched in directory `images` and the target images is in `_generated_images`.
+The default image source files is searched in directory `_images` and the target images is in `_generated_images`.
