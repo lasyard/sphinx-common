@@ -38,15 +38,6 @@ The `lasyard_literalinclude` is an override of the standard `literalinclude` dir
 
 The `ellipsis_to_vertical` is to replace single lines of `...` to vertical `⋮`s in literal blocks if the language is `console`.
 
-### Images
-
-Images were provided to be used as you wish. e.g., set logo and favicon in the configuration file:
-
-```py
-html_logo = 'sphinx-common/images/lasydoc.png'
-html_favicon = 'sphinx-common/images/favicon-96x96.png'
-```
-
 ### Styles
 
 CSS files were provided to adjust the appearance of html pages. In the configuration file:
