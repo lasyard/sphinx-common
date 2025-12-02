@@ -42,7 +42,7 @@ def guess_language(filename):
 
 def strip_diff_headers(diff_text):
     lines = diff_text.splitlines(keepends=True)
-    header_re = re.compile(r"^---|^\+\+\+")
+    header_re = re.compile(r"^---|^\+\+\+|^@@.*@@$")
     return ''.join(line for line in lines if not header_re.match(line))
 
 class LasyardLiteralInclude(LiteralInclude):
