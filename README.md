@@ -66,3 +66,7 @@ sphinx-common/scripts/build.sh clean
 Note `drawio` and `plantuml` tools must be installed, and the varible `DRAWIO_CMD` and `PUML_CMD` in file `drawio.mk` and `puml.mk` may need to be changed to the real path of the tools.
 
 The default image source files is searched in directory `_images` and the target images is in `_generated_images`.
+
+### MIT License
+
+<https://lasy.fwh.is/mit_license>
